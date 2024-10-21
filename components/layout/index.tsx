@@ -11,7 +11,7 @@ interface ILayoutProps {
 export const Layout: FC<ILayoutProps> = ({ children }) => {
 	return (
 		<div className="flex min-h-screen w-full flex-col gap-5 justify-start">
-			<TonConnectUIProvider manifestUrl={process.env.NEXT_PUBLIC_MANIFEST_URL}>
+			<TonConnectUIProvider manifestUrl="http://localhost:3000/manifest.json">
 				<Header />
 				{children}
 			</TonConnectUIProvider>

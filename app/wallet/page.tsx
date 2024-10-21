@@ -26,7 +26,9 @@ const Wallet: NextPage<IWalletProps> = () => {
 						</p>
 					</div>
 					<div className="w-full flex justify-center">
-						<Button onClick={navigateToTransaction}>Transact</Button>
+						<Button onClick={navigateToTransaction}>
+							Совершить транзакцию
+						</Button>
 					</div>
 				</div>
 			) : (
