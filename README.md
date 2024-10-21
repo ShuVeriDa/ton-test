@@ -5,17 +5,17 @@
 1. Скачайте и установите необходимые зависимости:
 
 ```bash
-   npm install
-   # или
-   yarn install
+npm install
+# или
+yarn install
 ```
 
 2. Запустите сервер разработки:
 
 ```bash
-	npm run dev
-	# или
-	yarn dev
+npm run dev
+# или
+yarn dev
 ```
 
 Откройте браузер и перейдите по следующему адресу:
